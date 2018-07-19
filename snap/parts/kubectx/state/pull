@@ -1,0 +1,28 @@
+!PullState
+assets:
+  build-packages: []
+  build-snaps: []
+  source-details: {source: 'git@github.com:ahmetb/kubectx.git', source-branch: '',
+    source-checksum: '', source-commit: c606382a6291bcac3514155beed1da05763f2c1c,
+    source-tag: ''}
+  stage-packages: []
+extracted_metadata:
+  files: []
+  metadata: !ExtractedMetadata
+    _data: {}
+project_options: {deb_arch: amd64}
+properties:
+  override-pull: snapcraftctl pull
+  parse-info: []
+  plugin: dump
+  source: git@github.com:ahmetb/kubectx.git
+  source-branch: ''
+  source-commit: ''
+  source-depth: 0
+  source-subdir: ''
+  source-tag: ''
+  source-type: ''
+  stage-packages: []
+schema_properties: []
+scriptlet_metadata: !ExtractedMetadata
+  _data: {}
