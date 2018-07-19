@@ -1,0 +1,19 @@
+name: kubectx 
+version: '0.5.0'
+summary: A tool to switch between Kubernetes contexts 
+description: |
+    Fast way to switch between clusters and namespaces in kubectl!
+
+grade: devel # must be 'stable' to release into candidate/stable channels
+confinement: devmode # use 'strict' once you have the right plugs and slots
+
+apps:
+    kubectx:
+        command: kubectx
+    kubens:
+        command: kubens
+
+parts:
+    kubectx:
+        plugin: dump 
+        source: git@github.com:ahmetb/kubectx.git 
