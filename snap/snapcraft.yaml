@@ -9,9 +9,9 @@ confinement: devmode # use 'strict' once you have the right plugs and slots
 
 apps:
     kubectx:
-        command: kubectx
+        command: bash $SNAP/kubectx
     kubens:
-        command: kubens
+        command: bash $SNAP/kubens
 
 parts:
     kubectx:
